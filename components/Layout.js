@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Header from "./Header";
+import Footer from "./Footer";
 
 export default function Layout(props) {
   return (
@@ -17,6 +18,7 @@ export default function Layout(props) {
       </Head>
       <Header />
       {props.children}
+      <Footer />
       <style jsx global>{`
         @font-face {
           font-family: "Montserrat", sans-serif;

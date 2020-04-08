@@ -17,7 +17,7 @@ export default function Header() {
           display: flex;
           align-items: center;
           height: 40px;
-          padding: 0 12px;
+          padding: 0 1em;
           background: #2e2e2e;
         }
         .header__link {
