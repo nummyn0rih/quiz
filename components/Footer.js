@@ -28,7 +28,6 @@ export default function Footer() {
         }
         .footer__email {
           margin-top: 1em;
-          color: #4b4b4b;
         }
         .email {
           text-decoration: none;
